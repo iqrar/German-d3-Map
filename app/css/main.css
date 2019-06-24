@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+#header {
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgba(0,0,0,0.7);
+    height: 100px;
+}
+#header h2 {
+    color: #fff;
+}
+
+#map {
+    width:100%;
+    height: auto;
+}
+
+.subunit { fill: #ddc; }
+.subunit.Nordrhein-Westfalen{ fill: #aba; }
+.subunit.Baden-Württemberg{ fill: #bab; }
+.subunit.Hessen{ fill: #bcb; }
+.subunit.Niedersachsen{ fill: #cbc; }
+.subunit.Thüringen{ fill: #cdc; }
+.subunit.Hamburg{ fill: #dcd; }
+.subunit.Schleswig-Holstein{ fill: #ded; }
+.subunit.Rheinland-Pfalz{ fill: #ede; }
+.subunit.Saarland{ fill: #efe; }
+.subunit.Sachsen-Anhalt{ fill: #fef; }
+.subunit.Brandenburg{ fill: #aaa; }
+.subunit.Mecklenburg-Vorpommern{ fill: #bbb; }
+.subunit.Bayern { fill: #ccc; }
+.subunit.Sachsen { fill: #ddd; }
+.subunit.Bremen { fill: #eee; }
+.subunit.Berlin { fill: #fff; }
+
+.subunit-boundary {
+  fill: none;
+  stroke-width:1px;
+  stroke: #777;
+  stroke-dasharray: 2,2;
+  stroke-linejoin: round;
+}
+.place,
+.place-label {
+  fill: #black;
+  fill-opacity: 1;
+  font-size: 24px;
+  font-weight: bold;
+  text-anchor: left;
+}
+text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  pointer-events: none;
+}
+.subunit-label {
+  fill: #777;
+  fill-opacity: .5;
+  font-size: 30px;
+  font-weight: 200;
+  text-anchor: middle;
+}
+
+.active {
+  fill: orange;
+}
+
+/* Tooltip*/
+
+.hidden {
+    display: none;
+}
+ div.tooltip {
+    color: #222;
+    background-color: #fff;
+    padding: .5em;
+    text-shadow: #f5f5f5 0 1px 0;
+    border-radius: 2px;
+    opacity: 0.9;
+    position: absolute;
+}
+
+
+
+
+
+
+
+

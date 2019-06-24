@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>video-playing-web-app</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <!-- endbuild -->
+</head>
+<body ng-app="German-d3-Map">
+    <!-- header -->
+    <section id="header">
+        <h2> German-d3-Map </h2>
+    </section>
+    <!-- contents -->
+    <div>
+       <div ui-view></div>
+    </div>
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+   <script src="http://d3js.org/topojson.v0.min.js"></script>
+    <script src="bower_components/datamaps/dist/datamaps.none.min.js"></script>
+    <!--<script src="//d3js.org/topojson.v1.min.js"></script>-->
+   
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="js/app.js"></script>
+    <script src="js/home.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
