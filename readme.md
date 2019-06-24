@@ -1,4 +1,4 @@
-## Video-Playing-Web-App
+## German-d3-Map
 
 This app plays videos which is supported in different browser.
 App will check the support of video formate in current browser.
